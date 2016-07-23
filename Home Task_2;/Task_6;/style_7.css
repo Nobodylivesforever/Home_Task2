@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+*{
+	font-family: "Poiret One", sans-serif;
+	font-weight: bold;
+}
+
+body {
+	background-image: url(http://amacorp.ru/wp-content/uploads/2014/06/geometric.png);
+}
+
+label {
+	padding: 5px;
+	font-size: 20px;	
+}
+
+.red, .green, .blue {
+	padding: 2px;
+}
+
+input {
+	display: none;
+}
+
+input {
+	position: absolute;
+	left: 50px;
+}
+
+div {
+	position: absolute;
+	left: 18%;
+	top: 43%;
+}
+
+	/*стиль списка начало*/
+
+.red {
+	background-color: red;
+	border-radius: 5px;
+	color: white;
+}
+
+.green {
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+}
+
+.blue {
+	background-color: blue;
+	border-radius: 5px;
+	color: white;
+}
+
+	/*стиль списка конец*/
+
+	/*стиль label начало*/
+
+label[for="green"] {
+	color: green;
+	text-decoration: underline;
+}
+
+label[for="red"] {
+	color: red;
+	text-decoration: underline;
+}
+
+label[for="blue"] {
+	color: blue;
+	text-decoration: underline;
+}
+
+	/*стиль label конец*/
+
+	/*стиль checked начало*/
+input#green:checked ~ label[for="green"] {
+	opacity: 0.5;
+}
+
+input#red:checked ~ label[for="red"] {
+	opacity: 0.5;
+}
+
+input#blue:checked ~ label[for="blue"] {
+	opacity: 0.5;
+}
+
+#blue:checked ~ .blue {
+	display: none;
+}
+
+#red:checked ~ .red {
+	display: none;
+}
+
+#green:checked ~ .green {
+	display: none;
+}
+
+
+	/*стиль checked конец*/

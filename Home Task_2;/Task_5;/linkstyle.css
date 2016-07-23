@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+* {
+	font-family: "PT Sans",sans-serif;
+}
+
+a[href*="http"] {
+	color: #f70;
+}
+
+a[href*="google"] {
+	color: #666;
+}
+
+a[target="_blank"]:after {
+	content: " ⇱";
+}
+
+a[target="_blank"]:first-letter {
+	text-decoration: none;
+}

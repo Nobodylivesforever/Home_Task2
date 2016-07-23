@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+* {
+	font-family: "PT Sans";
+}
+
+	/* Стиль списка начало*/
+
+#allotment h2 {
+	color: orange;
+}
+
+#allotment li {
+	font-weight: bold;
+}
+
+#allotment .fruits-list li {
+	color: grey;
+	font-weight: normal;
+}
+
+#allotment .vegetables-list li {
+	color: red;
+	font-weight: normal;
+}
+
+#warehouse h2 {
+	color: blue;
+}
+
+#warehouse li {
+	font-weight: bold;
+}
+
+#warehouse .fruits-list li {
+	color: green;
+	font-weight: normal;
+}
+
+#warehouse .vegetables-list li {
+	color: red;
+	font-weight: normal;
+}
+
+	/*Стиль списка конец*/
+
+	/*Стиль таблицы начало*/
+
+thead tr td {
+	font-weight: bold;
+	text-align: center;
+}
+
+tbody tr td {
+	background-color: green;
+	text-align: center;
+	color: white;
+}
+
+tbody tr td:first-child {
+	color: orange;
+	background-color: white;
+  	text-align: left;
+}
+
+	/*Стиль таблицы конец*/
